@@ -13,6 +13,11 @@
 		2632059420AB59B200FB6007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2632059320AB59B200FB6007 /* Assets.xcassets */; };
 		2632059720AB59B200FB6007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2632059520AB59B200FB6007 /* LaunchScreen.storyboard */; };
 		263205A220AB59B200FB6007 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263205A120AB59B200FB6007 /* ExampleTests.swift */; };
+		2632065120ACA67100FB6007 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2632065020ACA67100FB6007 /* DataModels.swift */; };
+		2632065520AD500300FB6007 /* ActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2632065420AD500300FB6007 /* ActionView.xib */; };
+		2632065720AD501700FB6007 /* ResearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2632065620AD501700FB6007 /* ResearchView.xib */; };
+		2632065920AD502200FB6007 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2632065820AD502200FB6007 /* ActionView.swift */; };
+		2632065B20AD502B00FB6007 /* ResearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2632065A20AD502B00FB6007 /* ResearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		2632059D20AB59B200FB6007 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263205A120AB59B200FB6007 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		263205A320AB59B200FB6007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2632065020ACA67100FB6007 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		2632065420AD500300FB6007 /* ActionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionView.xib; sourceTree = "<group>"; };
+		2632065620AD501700FB6007 /* ResearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResearchView.xib; sourceTree = "<group>"; };
+		2632065820AD502200FB6007 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		2632065A20AD502B00FB6007 /* ResearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,11 @@
 				2632059320AB59B200FB6007 /* Assets.xcassets */,
 				2632059520AB59B200FB6007 /* LaunchScreen.storyboard */,
 				2632059820AB59B200FB6007 /* Info.plist */,
+				2632065020ACA67100FB6007 /* DataModels.swift */,
+				2632065420AD500300FB6007 /* ActionView.xib */,
+				2632065820AD502200FB6007 /* ActionView.swift */,
+				2632065620AD501700FB6007 /* ResearchView.xib */,
+				2632065A20AD502B00FB6007 /* ResearchView.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -178,6 +193,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2632059720AB59B200FB6007 /* LaunchScreen.storyboard in Resources */,
+				2632065520AD500300FB6007 /* ActionView.xib in Resources */,
+				2632065720AD501700FB6007 /* ResearchView.xib in Resources */,
 				2632059420AB59B200FB6007 /* Assets.xcassets in Resources */,
 				2632059220AB59B000FB6007 /* Main.storyboard in Resources */,
 			);
@@ -197,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2632065920AD502200FB6007 /* ActionView.swift in Sources */,
+				2632065120ACA67100FB6007 /* DataModels.swift in Sources */,
+				2632065B20AD502B00FB6007 /* ResearchView.swift in Sources */,
 				2632058F20AB59B000FB6007 /* ViewController.swift in Sources */,
 				2632058D20AB59B000FB6007 /* AppDelegate.swift in Sources */,
 			);

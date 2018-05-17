@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="neC-hc-VUV" customClass="ResearchView" customModule="Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="112"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HSF-Hb-z0j">
+                    <rect key="frame" x="12" y="41" width="50" height="50"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="JLO-gL-ZbD"/>
+                        <constraint firstAttribute="height" constant="50" id="udI-dV-6x4"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6w-Pr-wM3">
+                    <rect key="frame" x="70" y="41" width="293" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Lh-up-hcT">
+                    <rect key="frame" x="70" y="67" width="293" height="32.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtQ-js-H7D">
+                    <rect key="frame" x="12" y="12" width="50" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwX-wg-2Ts">
+                    <rect key="frame" x="70" y="12" width="293" height="17"/>
+                    <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="X0i-R8-dRt" firstAttribute="bottom" secondItem="3Lh-up-hcT" secondAttribute="bottom" constant="12.5" id="3To-bb-FWl"/>
+                <constraint firstItem="3Lh-up-hcT" firstAttribute="trailing" secondItem="g6w-Pr-wM3" secondAttribute="trailing" id="3g3-St-6JD"/>
+                <constraint firstItem="g6w-Pr-wM3" firstAttribute="top" secondItem="HSF-Hb-z0j" secondAttribute="top" id="Aga-8F-KOZ"/>
+                <constraint firstItem="HSF-Hb-z0j" firstAttribute="top" secondItem="rtQ-js-H7D" secondAttribute="bottom" constant="12" id="CrS-oh-dx9"/>
+                <constraint firstItem="rtQ-js-H7D" firstAttribute="leading" secondItem="X0i-R8-dRt" secondAttribute="leading" constant="12" id="K9w-OD-fAl"/>
+                <constraint firstItem="3Lh-up-hcT" firstAttribute="leading" secondItem="g6w-Pr-wM3" secondAttribute="leading" id="OlY-QC-QUE"/>
+                <constraint firstItem="g6w-Pr-wM3" firstAttribute="trailing" secondItem="wwX-wg-2Ts" secondAttribute="trailing" id="bDP-sm-SjA"/>
+                <constraint firstItem="HSF-Hb-z0j" firstAttribute="leading" secondItem="X0i-R8-dRt" secondAttribute="leading" constant="12" id="cQb-QF-3Cy"/>
+                <constraint firstItem="wwX-wg-2Ts" firstAttribute="leading" secondItem="g6w-Pr-wM3" secondAttribute="leading" id="eDP-gp-Wpm"/>
+                <constraint firstItem="3Lh-up-hcT" firstAttribute="top" secondItem="g6w-Pr-wM3" secondAttribute="bottom" constant="8" id="iHQ-vK-a6T"/>
+                <constraint firstItem="wwX-wg-2Ts" firstAttribute="leading" secondItem="rtQ-js-H7D" secondAttribute="trailing" constant="8" id="mFh-TP-kZR"/>
+                <constraint firstItem="rtQ-js-H7D" firstAttribute="top" secondItem="X0i-R8-dRt" secondAttribute="top" constant="12" id="mac-DE-HY4"/>
+                <constraint firstItem="g6w-Pr-wM3" firstAttribute="leading" secondItem="HSF-Hb-z0j" secondAttribute="trailing" constant="8" id="pMU-HS-Ss1"/>
+                <constraint firstItem="wwX-wg-2Ts" firstAttribute="top" secondItem="rtQ-js-H7D" secondAttribute="top" id="rnt-Tf-sWH"/>
+                <constraint firstItem="X0i-R8-dRt" firstAttribute="trailing" secondItem="wwX-wg-2Ts" secondAttribute="trailing" constant="12" id="zYq-pU-1EG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="X0i-R8-dRt"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                    <integer key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="descriptionLabel" destination="3Lh-up-hcT" id="nzY-jr-gaM"/>
+                <outlet property="iconImageView" destination="HSF-Hb-z0j" id="fXA-vz-AI9"/>
+                <outlet property="lastUpdatedLabel" destination="rtQ-js-H7D" id="iup-II-bL4"/>
+                <outlet property="publisherLabel" destination="wwX-wg-2Ts" id="vpU-zc-opB"/>
+                <outlet property="titleLabel" destination="g6w-Pr-wM3" id="pm1-5J-4gs"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-216"/>
+        </view>
+    </objects>
+</document>
